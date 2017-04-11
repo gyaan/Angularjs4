@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<h1>{{title}}</h1>
+<nav>
+  <a routerLinkActive="active" routerLink="/heroes">Heroes</a>
+  <a routerLinkActive="active" routerLink="/dashboard">Dashboard</a>
+</nav>
+
+<router-outlet></router-outlet>
+<!--<app-heroes></app-heroes>-->
